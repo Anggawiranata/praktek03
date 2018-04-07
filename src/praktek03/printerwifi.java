@@ -11,4 +11,13 @@ public class printerwifi extends printer {
    
 
     }
+
+    public String getJenisprinter() {
+        return jenisprinter;
+    }
+
+    public void setJenisprinter(String jenisprinter) {
+        this.jenisprinter = jenisprinter;
+    }
+    
 }
