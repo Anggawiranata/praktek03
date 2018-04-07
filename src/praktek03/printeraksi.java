@@ -19,5 +19,9 @@ public class printeraksi {
         System.out.println(p.getWarna());
         System.out.print("harganya \t: ");
         System.out.println(p.getHarga());
+        
+        printerwifi pw = new printerwifi();
+        
+        pw.menngantitinta();
     }
 }
