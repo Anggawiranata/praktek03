@@ -7,4 +7,10 @@ public class printer {
     String warna;
     double harga;
     
+    void menngantitinta(){
+        System.out.println("merk \t: "+merk+"\n"+
+                "warna \t: "+warna+"\n"+
+                "harga \t: "+warna);
+    
+    }
 }
