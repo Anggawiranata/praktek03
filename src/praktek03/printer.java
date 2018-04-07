@@ -10,7 +10,7 @@ public class printer {
     void menngantitinta(){
         System.out.println("merk \t: "+merk+"\n"+
                 "warna \t: "+warna+"\n"+
-                "harga \t: "+warna);
+                "harga \t: "+harga);
     
     }
 

@@ -21,7 +21,12 @@ public class printeraksi {
         System.out.println(p.getHarga());
         
         printerwifi pw = new printerwifi();
-        
+        pw.setMerk("epson");
+        pw.setWarna("hitam");
+        pw.setHarga(10000);
+        pw.setJenisprinter("wifi");
         pw.menngantitinta();
+        System.out.println("Jenis \t:"+pw.getJenisprinter());
+        pw.throttle();
     }
 }
